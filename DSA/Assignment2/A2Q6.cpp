@@ -16,14 +16,14 @@ int main(){
     cout<<"Given Matrix :"<<endl;
     for(int i=0;i<rows;i++){
         for(int j=0;j<cols;j++){
-            cout<<setw(3)<<arr[i][j]<<" ";
+            cout<<setw(4)<<arr[i][j]<<" ";
         }
         cout<<endl;
     }
     cout<<"Transpose matrix :"<<endl;
     for(int i=0;i<cols;i++){
         for(int j=0;j<rows;j++){
-            cout<<setw(3)<<arr[j][i];
+            cout<<setw(4)<<arr[j][i];
         }
         cout<<endl;
     }

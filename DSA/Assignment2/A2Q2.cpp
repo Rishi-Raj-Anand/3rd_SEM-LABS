@@ -40,10 +40,22 @@ void findCommon(int arr1[],int n,int arr2[], int m){
 }
 
 int main(){
-    int arr1[]={1,2,11,2,3,8,5,3};
-    int n=sizeof(arr1)/sizeof(int);
-    int arr2[]={1,86,36,2,3,5};
-    int m=sizeof(arr2)/sizeof(int);
-    findCommon(arr1,n,arr2,m);
+    int n1;
+    cout<<"Enter size of first array :";
+    cin>>n1;
+    cout<<"Enter first array :";
+    int arr1[n1];
+    for(int i=0;i<n1;i++){
+        cin>>arr1[i];
+    }
+    int n2;
+    cout<<"Enter size of second array :";
+    cin>>n2;
+    cout<<"Enter second array :";
+    int arr2[n2];
+    for(int i=0;i<n2;i++){
+        cin>>arr2[i];
+    }
+    findCommon(arr1,n1,arr2,n2);
     return 0;
 }

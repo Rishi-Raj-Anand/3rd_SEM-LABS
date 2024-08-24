@@ -26,8 +26,14 @@ void countFreq(int arr[],int n){
 }
 
 int main(){
-    int arr[]={5,9,1,45,5,44,71,2,2,8,3,7,3,6,5,4};
-    int n=sizeof(arr)/sizeof(int);
+    int n;
+    cout<<"Enter size of array :";
+    cin>>n;
+    cout<<"Enter array :";
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
     countFreq(arr,n);
     return 0;
 }

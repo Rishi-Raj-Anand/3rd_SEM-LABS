@@ -36,8 +36,14 @@ void statistics(int arr[],int n){
 }
 
 int main(){
-    int arr[]={5,1,5,3,8,1,1,2,9,6,2,2,2,2,2,2,2};
-    int n=sizeof(arr)/sizeof(int);
+    int n;
+    cout<<"Enter size of array :";
+    cin>>n;
+    cout<<"Enter array :";
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
     statistics(arr,n);
     return 0;
 }
