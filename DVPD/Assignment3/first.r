@@ -85,7 +85,3 @@ ggplot(cost_of_living, aes(x = reorder(Country, -Cost.of.Living.Index), y = Cost
   coord_flip() +
   theme_minimal() +
   labs(title = "Cost of Living Index by Country", x = "Country", y = "Cost of Living Index")
-
-
-
-

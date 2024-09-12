@@ -10,3 +10,4 @@ plt.title('Total Bill per Day')
 plt.xlabel('Day of the Week')
 plt.ylabel('Total Bill')
 plt.show()
+      

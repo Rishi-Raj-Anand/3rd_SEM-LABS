@@ -1,13 +1,37 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-void roll(){
-    int r;
-    cout<<"Enter your Roll : ";
-    cin>>r;
-    cout<<"Your Roll is "<<r<<".";
+
+void printArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 }
 
-int main(){
-    roll();
+void modifyArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        arr[i] = arr[i] * 2;
+    }
+}
+
+int main() {
+    cout<<"Enter size of array :";
+    int size;
+    cin>>size;
+    int arr[size];
+    cout<<"Enter "<<size<<" integers :";
+    for(int i=0;i<size;i++){
+        cin>>arr[i];
+    }
+    
+
+    cout << "Original Array: ";
+    printArray(arr, size);
+
+    modifyArray(arr, size);
+
+    cout << "Modified Array: ";
+    printArray(arr, size);
+
     return 0;
 }

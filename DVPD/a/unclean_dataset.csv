@@ -1,0 +1,101 @@
+Name,Age,Email,Phone,Address,Purchase_Date,Product_ID,Quantity,Price,Review_Score
+Tom,N/A,john@mail.com,+1-123-456-7890,253 Elm St,01/02/2024,P0034,1,ten,five
+Alice,nan,jane@test.or,123.456.7890,519 Elm St,"March 4, 2024",P0015,three,9.99,1
+Jerry,N/A,smith@mail.com,1234567890,653 High St,2024-01-01,P0024,3,ten,2
+Bob,41,alice@mail.co,123 456 7890,393 High St,2024-06-06,P0017,1,5.49,3
+Tom,nan,bob@mail.co,+1-123-456-7890,795 High St,"March 4, 2024",P0010,0,5.49,nan
+Chris,N/A,eve@example.com,(123) 456-7890,194 Second St,2024/05/05,P0037,three,ten,5
+Smith,unknown,tom@mail.co,123 456 7890,29 Second St,2024-06-06,P006,1,N/A,2
+Tom,unknown,jerry@mail.co,(123) 456-7890,422 Broadway,2024-06-06,P0040,1,N/A,3
+Jerry,unknown,anna@example.co,123-456-7890,648 Second St,2024.03.03,P0038,3,nan,2
+Bob,unknown,chris@example.co,123 456 7890,833 Elm St,2024-01-01,P0033,0,5.49,five
+Alice,18,john@mail.co,+1-123-456-7890,500 Main St,2024-01-01,P0011,NaN,19.99,5
+Jerry,unknown,jane@test.or,123 456 7890,511 Main St,nan,P0037,NaN,nan,nan
+Jerry,unknown,smith@example.co,123 456 7890,301 First Ave,nan,P0031,1,N/A,1
+Smith,44,alice@test.or,123 456 7890,804 Elm St,nan,P008 ,2,ten,1
+Eve,unknown,bob@test.or,1234567890,252 Broadway,nan,P0045 ,0,N/A,3
+Bob,N/A,eve@mail.co,123 456 7890,445 First Ave,2024/05/05,P0015 ,three,ten,nan
+Jane,unknown,tom@example.com,(123) 456-7890,182 Broadway,2024/05/05,P0040,2,nan,4
+Jerry,unknown,jerry@test.or,123-456-7890,714 High St,2024-06-06,P0030,2,5.49,five
+Eve,nan,anna@example.co,123.456.7890,531 Elm St,01/02/2024,P0022,0,N/A,3
+Jane,nan,chris@test.or,123 456 7890,451 Second St,2024.03.03,P0015,1,ten,4
+Bob,47,john@example.co,+1-123-456-7890,653 High St,2024.03.03,P0011,1,5.49,2
+John,unknown,jane@test.or,123 456 7890,220 Elm St,nan,P0013,1,19.99,five
+Chris,unknown,smith@example.co,+1-123-456-7890,58 First Ave,2024-06-06,P0042,1,ten,2
+Eve,60,alice@mail.co,(123) 456-7890,476 Second St,"March 4, 2024",P0046,NaN,nan,nan
+Anna,53,bob@example.com,+1-123-456-7890,895 Main St,01/02/2024,P009,1,19.99,5
+John,unknown,eve@example.com,123.456.7890,935 Main St,2024-06-06,P0026,NaN,19.99,five
+Chris,N/A,tom@example.com,123-456-7890,387 Second St,01/02/2024,P006,NaN,9.99,4
+Smith,N/A,jerry@example.co,+1-123-456-7890,348 Elm St,01/02/2024,P0041,1,N/A,5
+Tom,59,anna@example.co,+1-123-456-7890,505 First Ave,01/02/2024,P0019,3,ten,1
+Alice,nan,chris@example.co,123-456-7890,369 Main St,2024-06-06,P0014,three,19.99,4
+Anna,nan,john@test.or,123.456.7890,824 Main St,nan,P001,2,9.99,3
+Smith,nan,jane@test.or,123 456 7890,934 Second St,2024.03.03,P003,NaN,nan,1
+Bob,N/A,smith@example.co,+1-123-456-7890,134 High St,2024.03.03,P0034 ,0,5.49,1
+Smith,nan,alice@mail.co,123-456-7890,556 Second St,nan,P0014,0,ten,3
+Tom,45,bob@mail.co,(123) 456-7890,672 Second St,01/02/2024,P0048 ,three,19.99,five
+Bob,N/A,eve@test.or,123-456-7890,829 Second St,"March 4, 2024",P005,0,N/A,1
+Anna,50,tom@mail.com,(123) 456-7890,80 Elm St,2024-01-01,P0034,3,9.99,nan
+Tom,N/A,jerry@mail.co,123.456.7890,213 Broadway,2024-06-06,P0040 ,0,19.99,4
+Jane,69,anna@example.com,123 456 7890,764 Second St,2024-01-01,P0018 ,2,N/A,5
+Alice,unknown,chris@example.com,123-456-7890,676 Broadway,nan,P0042,2,19.99,1
+Anna,N/A,john@test.or,1234567890,659 First Ave,"March 4, 2024",P0034 ,NaN,ten,4
+Jane,unknown,jane@test.or,+1-123-456-7890,441 High St,2024-06-06,P0043,1,ten,2
+Chris,N/A,smith@mail.co,123.456.7890,47 Main St,nan,P0035,3,ten,4
+Anna,54,alice@example.com,123-456-7890,305 Elm St,01/02/2024,P0026,NaN,nan,5
+Chris,N/A,bob@test.or,+1-123-456-7890,143 Main St,2024.03.03,P0043 ,3,nan,4
+Bob,nan,eve@example.co,123-456-7890,373 Elm St,2024-01-01,P0049,1,9.99,3
+Jane,unknown,tom@mail.co,(123) 456-7890,886 Broadway,2024/05/05,P0019,0,ten,5
+Alice,nan,jerry@test.or,123-456-7890,656 Main St,2024/05/05,P0041 ,0,N/A,five
+Tom,41,anna@mail.co,1234567890,971 First Ave,"March 4, 2024",P0014,1,19.99,2
+Jerry,69,chris@test.or,123-456-7890,330 Elm St,01/02/2024,P0030,NaN,5.49,3
+Smith,N/A,john@test.or,123-456-7890,972 First Ave,2024-01-01,P0037,1,N/A,five
+John,nan,jane@test.or,1234567890,373 High St,01/02/2024,P0013,three,nan,4
+Alice,N/A,smith@mail.com,123.456.7890,348 First Ave,2024-01-01,P0013 ,2,nan,5
+Jane,20,alice@mail.co,123-456-7890,90 High St,"March 4, 2024",P0044,NaN,N/A,2
+Jerry,54,bob@mail.co,1234567890,316 High St,"March 4, 2024",P0049,3,nan,3
+Alice,unknown,eve@mail.com,+1-123-456-7890,540 First Ave,2024/05/05,P004,three,ten,five
+Jane,N/A,tom@example.co,(123) 456-7890,869 Main St,01/02/2024,P006,NaN,9.99,five
+Eve,nan,jerry@example.co,(123) 456-7890,740 Broadway,2024-06-06,P0026,1,19.99,2
+Eve,40,anna@example.co,123-456-7890,502 Main St,2024/05/05,P0020 ,1,9.99,nan
+Chris,49,chris@mail.co,123.456.7890,201 Main St,01/02/2024,P0024,1,19.99,4
+Alice,unknown,john@mail.co,123.456.7890,724 Second St,2024/05/05,P003 ,1,19.99,2
+Eve,19,jane@test.or,+1-123-456-7890,732 Second St,2024-06-06,P005,3,9.99,five
+Jane,N/A,smith@example.co,123-456-7890,909 Elm St,2024.03.03,P0028 ,three,N/A,1
+Chris,N/A,alice@mail.com,(123) 456-7890,547 Second St,2024.03.03,P0027,0,19.99,3
+Jane,unknown,bob@example.co,123.456.7890,390 High St,2024.03.03,P0045,2,9.99,2
+Chris,unknown,eve@test.or,123-456-7890,883 Second St,2024.03.03,P005,3,19.99,nan
+Alice,nan,tom@test.or,123.456.7890,815 Main St,nan,P0030,3,5.49,five
+Jerry,unknown,jerry@mail.co,1234567890,450 High St,2024-01-01,P0045,0,N/A,4
+Tom,nan,anna@test.org,123.456.7890,824 Elm St,nan,P0034 ,0,ten,five
+Anna,nan,chris@example.co,(123) 456-7890,242 Broadway,nan,P0027,2,19.99,4
+Jerry,N/A,john@mail.co,123 456 7890,877 Second St,nan,P0029 ,2,5.49,2
+Bob,unknown,jane@mail.co,+1-123-456-7890,119 Main St,2024.03.03,P0029,0,ten,4
+Jane,nan,smith@mail.co,+1-123-456-7890,374 Main St,2024-06-06,P0029,1,ten,5
+Bob,50,alice@example.co,(123) 456-7890,146 Main St,"March 4, 2024",P0021,3,19.99,5
+Jerry,nan,bob@example.co,123.456.7890,779 Second St,"March 4, 2024",P0025,NaN,9.99,5
+Chris,unknown,eve@test.or,123-456-7890,282 Main St,2024-01-01,P008,2,19.99,nan
+Anna,nan,tom@example.co,123.456.7890,854 Broadway,2024.03.03,P0046,2,5.49,nan
+Anna,unknown,jerry@mail.co,(123) 456-7890,795 Main St,2024.03.03,P0022,0,ten,1
+John,unknown,anna@example.co,+1-123-456-7890,461 Main St,2024.03.03,P0031,three,19.99,nan
+Anna,nan,chris@example.co,123.456.7890,610 Main St,2024/05/05,P0041,NaN,9.99,2
+Tom,unknown,john@example.co,+1-123-456-7890,99 Main St,01/02/2024,P0022,NaN,19.99,five
+Anna,69,jane@mail.co,123-456-7890,405 Elm St,2024/05/05,P0039,2,N/A,five
+Jerry,nan,smith@example.com,+1-123-456-7890,476 Main St,01/02/2024,P009,1,9.99,1
+John,N/A,alice@mail.co,+1-123-456-7890,709 Second St,2024.03.03,P0016,three,5.49,nan
+Jerry,57,bob@example.co,123 456 7890,870 Broadway,2024.03.03,P0012,NaN,ten,4
+Jerry,nan,eve@example.co,123 456 7890,437 Second St,2024/05/05,P0046,2,19.99,1
+Smith,N/A,tom@example.co,1234567890,565 Second St,2024/05/05,P0022,NaN,9.99,4
+John,unknown,jerry@mail.co,123 456 7890,714 High St,01/02/2024,P0021,three,N/A,4
+Jerry,N/A,anna@mail.com,+1-123-456-7890,83 Main St,"March 4, 2024",P0036,three,9.99,3
+Smith,unknown,chris@mail.co,(123) 456-7890,85 Elm St,01/02/2024,P0015,3,nan,five
+Smith,N/A,john@mail.co,+1-123-456-7890,457 Elm St,2024/05/05,P0038,0,N/A,5
+John,65,jane@example.co,(123) 456-7890,1 Broadway,2024-06-06,P0039 ,0,5.49,nan
+Bob,nan,smith@test.or,(123) 456-7890,685 Second St,2024/05/05,P0010,2,ten,4
+Chris,N/A,alice@test.org,123 456 7890,772 Elm St,2024-06-06,P008 ,three,5.49,3
+Tom,nan,bob@mail.com,123.456.7890,449 Main St,2024-01-01,P0037,3,19.99,five
+Chris,29,eve@example.co,123-456-7890,488 High St,2024/05/05,P0028 ,3,9.99,5
+Anna,nan,tom@test.or,123 456 7890,348 High St,2024-01-01,P0012 ,NaN,nan,4
+Tom,26,jerry@test.org,123 456 7890,250 High St,"March 4, 2024",P0047,NaN,N/A,4
+Anna,unknown,anna@mail.com,123.456.7890,438 Elm St,01/02/2024,P001 ,3,N/A,1
+Jerry,nan,chris@example.co,123-456-7890,771 Broadway,2024-06-06,P0018 ,NaN,9.99,1

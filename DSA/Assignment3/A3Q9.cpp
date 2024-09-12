@@ -3,8 +3,12 @@
 using namespace std;
 
 int main(){
-    char s[]="Rishi";
-    int n=strlen(s);
+    cout<<"Enter size of string :";
+    int n;
+    cin>>n;
+    char s[n];
+    cout<<"Enter string :";
+    cin>>s;
     char *ptre=s+(n-1);
     char *ptrs=s;
     cout<<"String : "<<s<<endl;

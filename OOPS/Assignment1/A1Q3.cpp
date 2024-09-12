@@ -1,25 +1,28 @@
-#include<iostream>
+#include <iostream>
+#include<string>
 using namespace std;
+struct Student {
+    string name;
+    int age;
+    float gpa;
+};
 
-int main(){
-    int n,m;
-    cout<<"Enter number of rows : ";
-    cin>>n;
-    cout<<"Enter number of columns :";
-    cin>>m;
-    int matrix[n][m];
-    cout<<"Enter your matrix :"<<endl;
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            cin>>matrix[i][j];
-        }
-    }
-    cout<<"Given matrix :"<<endl;
-    for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                cout<<matrix[i][j]<<" ";
-            }
-            cout<<"\n";
-        }
-        return 0;
+void printStudent(Student student) {
+    cout << "Name: " << student.name << endl;
+    cout << "Age: " << student.age << endl;
+    cout << "GPA: " << student.gpa << endl;
+}
+
+int main() {
+    Student student;
+    cout<<"Enter name of student :";
+    getline(cin,student.name);
+    cout<<"Enter age of student :";
+    cin>>student.age;
+    cout<<"Enter gpa of student :";
+    cin>>student.gpa;
+
+    printStudent(student);
+
+    return 0;
 }

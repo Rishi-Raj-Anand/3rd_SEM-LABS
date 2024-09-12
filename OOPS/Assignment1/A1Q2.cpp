@@ -1,10 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    char arr[20]={'R','i','s','h','i'};
-    int n=sizeof(arr)/sizeof(char);
-    for(int i=0;i<n;i++){
-        cout<<arr[i];
-    }
+
+int calculateArea(int length, int width) {
+    return length * width;
+}
+
+int calculatePerimeter(int length, int width) {
+    return 2 * (length + width);
+}
+
+int main() {
+    int length;
+    int width;
+    cout<<"Enter length of Rectangle :";
+    cin>>length;
+    cout<<"Enter width of Rectangle :";
+    cin>>width;
+
+    int area = calculateArea(length, width);
+    int perimeter = calculatePerimeter(length, width);
+
+    cout << "Area: " << area << endl;
+    cout << "Perimeter: " << perimeter << endl;
+
     return 0;
 }
