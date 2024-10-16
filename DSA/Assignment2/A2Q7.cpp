@@ -25,10 +25,10 @@ int main(){
         cout<<endl;
     }
     if(isSymmetric){
-        cout<<"\nSymmetrix Matrix";
+        cout<<"\nSymmetric Matrix";
     }
     else{
-        cout<<"\nNot a Symmetrix Matrix";
+        cout<<"\nNot a Symmetric Matrix";
     }
 
     return 0;

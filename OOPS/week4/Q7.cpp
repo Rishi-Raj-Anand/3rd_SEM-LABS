@@ -28,6 +28,7 @@ complex operator + (complex a,complex b){
     temp.img=a.img+b.img;
     return temp;
 }
+
 int main(){
     complex c1(2,3),c2;
     c1.show();

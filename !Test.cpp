@@ -1,19 +1,21 @@
 #include<iostream>
-#include<vector>
-using namespace std;
-bool issort(vector<int>x){
-        for(int i=1;i<x.size();i++){
-            if(x[i-1]>x[i]){
-                return false;
-            }
+class OuterClass {
+private:
+    int x = 10;
+
+public:
+    class InnerClass {
+        int x=3;
+    public:
+        void print() {
+            std::cout << "This is an inner class" << std::endl;
+            std::cout << "Value of x: " << x << std::endl;
         }
-        return true;
-    }
-
-int main(){
-
-    vector<int>vec={1,2,3};
-    cout<<issort(vec);
-
+    };
+};
+int main() {
+    // OuterClass outer;
+    OuterClass::InnerClass inner;
+    inner.print();
     return 0;
 }
