@@ -1,10 +1,8 @@
-# Import necessary libraries for data handling and plotting
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the Bollywood dataset with the correct encoding
 bollywood_data = pd.read_csv('Movie_List.csv', encoding='ISO-8859-1')
 
 # Task 1: Number of different items per 'Genre'
