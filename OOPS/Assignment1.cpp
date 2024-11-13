@@ -112,7 +112,7 @@ public:
 };
 
 // 5. Hybrid Inheritance: TeachingAssistant inherits from Employee and Student
-class TeachingAssistant : public Employee, public Student {
+class TeachingAssistant  : public Employee, public Student {
 protected:
     string assignedProfessor;
 
