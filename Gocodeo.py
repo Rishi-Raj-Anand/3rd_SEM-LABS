@@ -1,3 +1,5 @@
+import numpy as np
+
 def print_star_pattern(n):
     # Loop through each line
     for i in range(n):
